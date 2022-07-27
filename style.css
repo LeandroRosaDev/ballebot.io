@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Righteous&family=Sarala:wght@400;700&display=swap");
 body {
-  font-family: "Fira Sans", Arial, sans-serif;
   margin: 0px;
-  color: #FFF2E7;
-  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+  color: #fff2e7;
+  background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
+  font-size: 100%;
 }
 h1,
 h2,
@@ -16,59 +17,59 @@ img {
   display: block;
 }
 
-a {
+.HeaderMenu {
   text-decoration: none;
-  color: #FFF2E7;
+  color: #fff2e7;
 }
 
 .header {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-}
-
-.imageLogoHeader {
-  margin-left: 23rem;
-  margin-top: .625rem;
+  justify-content: space-around;
+  padding: 1.25rem;
 }
 
 .menu {
-  margin-left: 35.5rem;
   font-size: 1.1rem;
-  font-family: Sarala;
+  font-family: "Sarala", sans-serif;
   font-weight: normal;
-}
-
-.HeaderMenu {
-  padding: 1.9rem;
+  display: flex;
+  gap: 2rem;
 }
 .firstSection {
+  border-top: 0.4px solid #fff2e7;
   display: grid;
   grid-column: 2/4;
   grid-template-columns: 1fr 1fr;
-  place-items:center;
-  
+  place-items: center;
 }
 
 .MainTitlle {
   font-size: 4rem;
-  font-family:  Righteous;
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
   margin-bottom: 1.25rem;
 }
-.SecondTitlle{
+.SecondTitlle {
   font-size: 1.5rem;
-  font-family: Sarala;
+  font-family: 'Sarala', sans-serif;
   font-weight: normal;
   margin-bottom: 1.8rem;
 }
 
 .Button {
-  padding: .62rem ;
-  border-radius: .62rem;
+  padding: 0.62rem;
+  border-radius: 0.62rem;
   width: 8.2rem;
   font-size: 1.1rem;
   border: none;
-  
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+}
+.Button:hover {
+  background-color: rgba(236, 214, 196, 0.53);
 }
 
 .SecondSection {
@@ -76,14 +77,23 @@ a {
   place-content: center;
   place-items: center;
   gap: 1.25rem;
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
 }
 
-.QuestionTitlle{
+.QuestionTitlle {
   margin-bottom: 1.25rem;
+  border-top: 0.4px solid;
+  padding-top: 2rem;
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
 }
 
 .Footer {
+  border-top: 0.4px solid #fff2e7;
   display: grid;
- place-content: center;
- margin-top: 4rem;
+  place-content: center;
+  margin-top: 4rem;
+  margin-bottom: 9.5rem;
+  padding: 2rem;
 }
