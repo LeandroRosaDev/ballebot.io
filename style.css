@@ -1,0 +1,89 @@
+body {
+  font-family: "Fira Sans", Arial, sans-serif;
+  margin: 0px;
+  color: #FFF2E7;
+  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF2E7;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.imageLogoHeader {
+  margin-left: 23rem;
+  margin-top: .625rem;
+}
+
+.menu {
+  margin-left: 35.5rem;
+  font-size: 1.1rem;
+  font-family: Sarala;
+  font-weight: normal;
+}
+
+.HeaderMenu {
+  padding: 1.9rem;
+}
+.firstSection {
+  display: grid;
+  grid-column: 2/4;
+  grid-template-columns: 1fr 1fr;
+  place-items:center;
+  
+}
+
+.MainTitlle {
+  font-size: 4rem;
+  font-family:  Righteous;
+  margin-bottom: 1.25rem;
+}
+.SecondTitlle{
+  font-size: 1.5rem;
+  font-family: Sarala;
+  font-weight: normal;
+  margin-bottom: 1.8rem;
+}
+
+.Button {
+  padding: .62rem ;
+  border-radius: .62rem;
+  width: 8.2rem;
+  font-size: 1.1rem;
+  border: none;
+  
+}
+
+.SecondSection {
+  display: grid;
+  place-content: center;
+  place-items: center;
+  gap: 1.25rem;
+}
+
+.QuestionTitlle{
+  margin-bottom: 1.25rem;
+}
+
+.Footer {
+  display: grid;
+ place-content: center;
+ margin-top: 4rem;
+}
